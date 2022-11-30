@@ -1,6 +1,6 @@
 document.addEventListener("keypress", function (e) {
   if (e.key === 'Enter') {
-    var btn = document.querySelector('button');
+    var btn = document.querySelector("#submit");
     btn.click();
   }
 });
