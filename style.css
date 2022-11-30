@@ -1,0 +1,507 @@
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    text-align: center;
+    color: black;
+}
+
+[class*="col-"] {
+    width: 100%;
+}
+
+
+@media only screen and (min-width: 600px) {
+
+    .col-s-1 {
+        width: 8.33%;
+    }
+
+    .col-s-2 {
+        width: 16.66%;
+    }
+
+    .col-s-3 {
+        width: 25%;
+    }
+
+    .col-s-4 {
+        width: 33.33%;
+    }
+
+    .col-s-5 {
+        width: 41.66%;
+    }
+
+    .col-s-6 {
+        width: 100%;
+    }
+
+    .col-s-7 {
+        width: 58.33%;
+    }
+
+    .col-s-8 {
+        width: 66.66%;
+    }
+
+    .col-s-9 {
+        width: 75%;
+    }
+
+    .col-s-10 {
+        width: 83.33%;
+    }
+
+    .col-s-11 {
+        width: 91.66%;
+    }
+
+    .col-s-12 {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+    .col-1 {
+        width: 8.33%;
+    }
+
+    .col-2 {
+        width: 16.66%;
+    }
+
+    .col-3 {
+        width: 25%;
+    }
+
+    .col-4 {
+        width: 33.33%;
+    }
+
+    .col-5 {
+        width: 41.66%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-7 {
+        width: 58.33%;
+    }
+
+    .col-8 {
+        width: 66.66%;
+    }
+
+    .col-9 {
+        width: 75%;
+    }
+
+    .col-10 {
+        width: 30%;
+    }
+
+    .col-11 {
+        width: 91.66%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+}
+
+header .menu {
+    padding: 0 20px;
+    background-color: rgb(55, 180, 76);
+}
+
+
+h1 {
+
+    padding: 2px;
+    font-weight: bold
+}
+
+.destaques {
+
+    background-color: rgb(180, 180, 180);
+}
+
+.row {
+    display: absolute;
+    justify-content: space-around;
+
+}
+
+.carousel-control-next {
+
+    width: 1%;
+    background-color: black;
+}
+
+.carousel-control-prev {
+
+    width: 1%;
+    background-color: black;
+}
+
+#games .jogo-itens .card {
+    flex: 1;
+    padding: 20px;
+}
+
+#jogo .jogo-itens .card img {
+
+    max-width: 300px;
+    align-self: stretch;
+}
+
+.jogos {
+    max-width: 300px;
+    height: 65%;
+    width: 80%;
+}
+
+.jogos .titulo {
+
+    text-align: center;
+    padding: 2px;
+}
+
+.jogos {
+    align-items: center;
+    margin: 10px;
+}
+
+.empresas {
+    align-items: center;
+    text-align: center;
+}
+
+.plataformas {
+
+    background-color: rgb(180, 180, 180);
+    padding: 1% 8% 1% 8%;
+}
+
+.thumbnail {
+
+    height: 50%;
+    width: 50%;
+}
+
+#jogos,
+#publishers {
+    padding: 2% 10%;
+    color: var(--main-purple);
+
+}
+
+#jogos .jogo-info-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#jogos .jogo-info-container h1,
+#publishers h1 {
+    text-align: center;
+}
+
+#jogos .jogo-container {
+    margin: 50px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+    gap: 20px;
+}
+
+#jogo .jogo-container .card {
+    flex: 1;
+    padding: 20px;
+}
+
+#destaques .card-video {
+    padding: 0 200px;
+}
+
+#destaques .card-video .video {
+    flex: 1;
+    display: block;
+    margin: 20px auto;
+}
+
+#destaques .card-video .video img {
+    height: 400px;
+    display: block;
+    margin: 20px auto;
+}
+
+#destaques .card-video .video-info h2 {
+    font-size: 30px;
+}
+
+#destaques .card-video .video-info p {
+    font-size: 20px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.publishers {
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    padding: 1% 8% 1% 8%;
+}
+
+#publishers h1 {
+    background-color: green;
+    text-align: center;
+}
+
+.publishers-container {
+    width: 100%;
+    margin: 10px 0;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.publishers-card {
+    padding: 50px;
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.image-container {
+    display: flex;
+    align-items: flex-start;
+    width: 20%;
+}
+
+.image-container img {
+    max-width: 200px;
+}
+.nav-bar {
+    background:green;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-bar img {
+    flex: 1;
+    display: block;
+
+    max-height: 50px;
+  }
+  
+  .hamb-menu {
+    display: none;
+    background-color: green;
+    
+    border: none;
+    cursor: pointer;
+  }
+  
+  .hamb-menu div {
+    content: "";
+    width: 32px;
+    height: 2px;
+    background: #fff;
+    margin: 8px;
+  }
+  
+  .nav-bar .nav-list {
+    flex: 4;
+    background-color: green;
+    margin: 0 auto;
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 30px;
+  
+    list-style: none;
+  }
+  
+  .nav-bar .nav-list a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .search-bar {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    color: #fff;
+  }
+  
+  .search-bar input {
+    border-radius: 10px;
+    border: none;
+    padding: 5px 10px;
+  }
+  
+  .search-bar input:focus {
+    border-radius: 10px;
+    border: none;
+    outline: 0px;
+  }
+  
+  .search-bar button{
+    color: #fff;
+  
+    background: none;
+    border: none;
+  }
+  
+  @media screen and (max-width: 930px) {
+  
+    .hamb-menu {
+    background-color: green;
+      display: block;
+    }
+  
+    .nav-bar .inactive {
+      display: none;
+    }
+  
+    .nav-bar .active {
+      z-index: 9999;
+      position: absolute;
+      width: 100%;
+      padding: 50px;
+      left: -20px;
+      right: 0;
+      top: 8%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: green;
+    }
+  
+  }
+@media screen and (max-width: 890px) {
+    #destaques .card-video {
+        padding: 20px 30px;
+    }
+
+}
+
+@media screen and (max-width: 890px) {
+
+    #destaques {
+        padding: 0;
+    }
+
+    #destaques .card-video .video {
+        width: 100%;
+        margin: 0;
+    }
+
+    #destaques .card-video .video img {
+        height: auto;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 890px) {
+    .image-container {
+        display: flex;
+        align-items: flex-start;
+        width: 10%;
+    }
+
+    .image-container img {
+        max-width: 100px;
+    }
+}
+
+.publishers-card ul {
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+
+.publishers-card .image-container img {
+    max-height: 100%;
+}
+
+.publishers-card a {
+    text-align: right;
+    text-decoration: none;
+    color: #000;
+}
+
+.sobre {
+    background-color: green;
+    padding: 10px;
+}
+
+.sobre .bi {
+    background-color: green;
+    padding-left: 2px;
+}
+
+@media only screen and (max-device-width: 900px) {
+    #destaques .card-video .card-body {
+        padding: 20px 30px;
+    }
+
+    #destaques .card-video .video {
+        width: 100%;
+        margin: 0;
+    }
+
+    #destaques .card-video .video img {
+        height: auto;
+        width: 80%;
+    }
+
+    .header {
+        width: 100%;
+    }
+
+    .conteiner {
+        width: 70%
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .publishers-container {
+        flex-direction: column;
+
+        margin: 0;
+    }
+
+    .publishers-card {
+        padding: 0;
+    }
+}
+
+.ts {
+    text-align: center;
+    background-color: grey;
+}
+
+footer {
+    text-align: center;
+    background-color: grey;
+}
